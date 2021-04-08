@@ -15,3 +15,14 @@ Film - Jak używać: https://www.youtube.com/watch?v=pqmwAESl1Nc
 Plik lekturka.exe jest skompilowanym plikiem lekturka.py za pomocą pyinstaller.
 <><><><><><><><><><><><><><>><><><>><><><><><><><><><><><><><><><><><><><><>
 ```
+Gdy napotkasz problemy z uruchomieniem pliku lekturka.exe
+
+Najpierw klikamy: więcej informacji
+
+![alt text](https://raw.githubusercontent.com/wansigg/textlekturka/main/images/1.png)
+
+Następnie: Uruchom mimo to
+
+![alt text](https://raw.githubusercontent.com/wansigg/textlekturka/main/images/2.png)
+
+Plik po kompilacji sprawdziłem Defenderem i nie posiada żadnych wirusów
