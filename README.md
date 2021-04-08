@@ -11,6 +11,7 @@
 <><><><><><><><><><><><><><>><><><>><><><><><><><><><><><><><><><><><><><><>
 Kod żródłowy znajduje się w katalogu z projektem -> lekturka.py.	
 Polecana strona do PDF to TXT: https://pdftotext.com/pl/	
-Film - Jak używać: https://www.youtube.com/watch?v=pqmwAESl1Nc	
+Film - Jak używać: https://www.youtube.com/watch?v=pqmwAESl1Nc
+Plik lekturka.exe jest skompilowanym plikiem lekturka.py za pomocą pyinstaller.
 <><><><><><><><><><><><><><>><><><>><><><><><><><><><><><><><><><><><><><><>
 ```
