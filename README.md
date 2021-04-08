@@ -1,4 +1,4 @@
-# textlekturka
+# textlekturka - powstał aby znaleźć szybko cytaty z lektury 
 
 ```
 1.Na początku potrzeba przekonwertować plik pdf na txt (na jakieś np.stronie)	
