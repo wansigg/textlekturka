@@ -50,3 +50,7 @@ wysoka
 niska
 stopy
 stupka
+stary
+młody
+młodzieniec
+starzec
