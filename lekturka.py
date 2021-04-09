@@ -5,8 +5,10 @@ a = f.read()
 a = a.lower()
 b = a.split('.')
 c = len(b)
+print("Liczba zdań, które zostały wykryte: " +str(c))
 szukano = open("slowniczek/"+opisyslownik,'r', encoding='utf-8')
 def szukanko(szukano):
+    znalezionecytaty = 0
     print("dla "+szukano)
     for kwk in range(c):
         y = b[kwk].split(' ')
@@ -17,13 +19,14 @@ def szukanko(szukano):
             slowa = slowa.rstrip('!')
             slowa = slowa.rstrip(':')
             slowa = slowa.rstrip('"')
-            slowa = slowa.lstrip('"')
+            slowa = slowa.lstrip('„')
             if slowa == szukano:
                 kwkk = kwk
                 print("^><><><><><><><><><><><><><><><><><><><><><><><><><><><><^")
                 print("---------------------------------------------------------")
                 print("Znaleziono "+'<'+slowa+'>'+' '+"w zdaniu"+' '+str(kwkk+1))
                 print("Cytat:"+b[kwkk-2]+b[kwkk-1]+b[kwkk]+b[kwkk+1]+b[kwkk+2])
+                znalezionecytaty = znalezionecytaty +1
                 print("---------------------------------------------------------")
                 print("^><><><><><><><><><><><><><><><><><><><><><><><><><><><><^")
                 cytaty.write("^><><><><><><><><><><><><><><><><><><><><><><><><><><><><^\n")
@@ -33,7 +36,7 @@ def szukanko(szukano):
                 cytaty.write("Cytat:"+b[kwkk-2]+b[kwkk-1]+b[kwkk]+b[kwkk+1]+b[kwkk+2]+"\n")
                 cytaty.write("---------------------------------------------------------\n")
                 cytaty.write("^><><><><><><><><><><><><><><><><><><><><><><><><><><><><^\n")
-
+    print("Znaleziono cytatów: "+str(znalezionecytaty))
                 
 slowniczek = szukano.readlines()
 slownictwo = []
