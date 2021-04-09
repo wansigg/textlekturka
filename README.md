@@ -35,4 +35,4 @@ Następnie: Uruchom mimo to
 
 ![alt text](https://raw.githubusercontent.com/wansigg/textlekturka/main/images/2.png)
 
-Plik po kompilacji sprawdziłem Defenderem i nie posiada żadnych wirusów
+Plik po kompilacji sprawdziłem Defenderem i nie posiada żadnych wirusów, a tak wogóle to ja przecierz pisałem ten program więc wiem co w nim jest i można to sprwdzić w lekturka.py.
